@@ -1,0 +1,10 @@
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReporter"/>
+    </listeners>
+    <test thread-count="5" name="PetTests">
+        <classes>
+            <class name="api.test.User_TestCases" />
+        </classes>
+    </test>
+</suite>
