@@ -1,5 +1,6 @@
 package api.test;
 
+import api.endpoints.PetEndPoints;
 import api.endpoints.userEndPoints;
 import api.payload.Pet;
 import com.github.javafaker.Faker;
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
 public class Pet_TestCases{
     @Test(priority = 1)
     void TC_002_GetDog(){
-        Response response = (Response) userEndPoints.readPet("5");
+        Response response = (Response) PetEndPoints.readPet("5");
                 response
                         .then()
                         .log()
