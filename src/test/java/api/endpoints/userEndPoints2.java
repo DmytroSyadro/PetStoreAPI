@@ -8,10 +8,14 @@ import java.util.ResourceBundle;
 
 import static api.endpoints.routes.*;
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.keyStore;
 
 public class userEndPoints2 {
-    static ResourceBundle getURL(){
-        ResourceBundle routes = ResourceBundle.getBundle("routes.properties");
+    static ResourceBundle routes = ResourceBundle.getBundle("routes");
+
+    static ResourceBundle getURL()
+    {
+        ResourceBundle routes = ResourceBundle.getBundle("routes");
         return routes;
     }
 

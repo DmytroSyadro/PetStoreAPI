@@ -4,7 +4,7 @@
     </listeners>
     <test thread-count="5" name="PetTests">
         <classes>
-            <class name="api.test.User_TestCases" />
+            <class name="api.test.User_TestCases2" />
         </classes>
     </test>
 </suite>
