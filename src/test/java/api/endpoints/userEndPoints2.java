@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.keyStore;
 
 public class userEndPoints2 {
-    static ResourceBundle routes = ResourceBundle.getBundle("routes");
+    public static ResourceBundle routes = ResourceBundle.getBundle("routes");
 
     static ResourceBundle getURL()
     {
